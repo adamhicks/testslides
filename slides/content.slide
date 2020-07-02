@@ -1,4 +1,4 @@
-Trading with the Luno API
+# Trading with the Luno API
 1 Jul 2020
 
 Adam Hicks
@@ -9,7 +9,7 @@ github.com/luno
 github.com/adamhicks
 
 
-* Resources
+## Resources
 .link https://www.luno.com/developers
 
 - Getting Started
@@ -21,27 +21,27 @@ github.com/adamhicks
 - Quick Start
 - Code examples
 
-* Overview
+## Overview
 - What is an API?
 
 - What can I do on the Luno API?
 
 - Getting started
 
-* What is an API?
+## What is an API?
 
-* What humans see
+## What humans see
 `https://www.luno.com/trade/markets/XBTGBP`
 
-* What computers see
+## What computers see
 
-**Request**
+*Request*
 
 `HTTP POST`
 
 `https://api.luno.com/api/1/postorder?pair=XBTGBP&type=ASK&volume=0.01&price=7415.31`
 
-**Response**
+*Response*
 
 `200 OK`
 
@@ -84,7 +84,7 @@ An API is how a **computer** uses a service, it:
 
 ## Getting Balances
 
-**`go run balances/balances.go`**
+*`go run balances/balances.go`*
 ```
 BCH 0.02823515
 XBT 0.09988558
