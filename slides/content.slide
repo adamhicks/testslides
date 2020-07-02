@@ -9,7 +9,7 @@ github.com/luno
 github.com/adamhicks
 
 
-## Resources
+* Resources
 .link https://www.luno.com/developers
 
 - Getting Started
@@ -21,19 +21,19 @@ github.com/adamhicks
 - Quick Start
 - Code examples
 
-## Overview
+* Overview
 - What is an API?
 
 - What can I do on the Luno API?
 
 - Getting started
 
-## What is an API?
+* What is an API?
 
-## What humans see
+* What humans see
 `https://www.luno.com/trade/markets/XBTGBP`
 
-## What computers see
+* What computers see
 
 *Request*
 
@@ -47,7 +47,7 @@ github.com/adamhicks
 
 `{"order_id": "BX933A74BE8"}`
 
-## t
+*
 A website is how a **human** uses a service, we:
 - See images on a screen
 - Move a cursor
@@ -59,7 +59,7 @@ An API is how a **computer** uses a service, it:
 - Receives an _response_
 - Runs code to figure out what to do next
 
-## What can I do on the Luno API?
+* What can I do on the Luno API?
 - Get market data
   - e.g. BTC/GBP Best Bid = 7535.41
 - Get wallet balances
@@ -71,7 +71,7 @@ An API is how a **computer** uses a service, it:
 - Send and Receive crypto
   - e.g. Send 0.021 BTC to another exchange
 
-## How do I get started?
+* How do I get started?
 - Install Go
   - `https://golang.org/doc/install`
 - Get the SDK
@@ -80,9 +80,9 @@ An API is how a **computer** uses a service, it:
   - `https://www.luno.com/wallet/security/api_keys`
 - Get Coding...
 
-## Examples in Go
+* Examples in Go
 
-## Getting Balances
+* Getting Balances
 
 *`go run balances/balances.go`*
 ```
@@ -95,11 +95,11 @@ LTC 1.87136022
 XRP 114.896144
 ```
 
-## Placing an Order
+* Placing an Order
 
-## Placing an Order
+* Placing an Order
 
-## Luno API
+* Luno API
 
 Enables programs to trade crypto
 
